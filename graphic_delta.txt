@@ -1,0 +1,18 @@
+set term png size 1100, 700 font 20
+set output "graphic_delta.png"
+set xrange [1.5:2.7]
+set xlabel "x"
+set ylabel "delta"
+plot "-" with points pt 7 ps 2 lc 3 title "",\
+     "-" with lines lw 2 lc 1 title "" smooth csplines
+1.5 3.72833
+1.8 3.38138
+2.1 3.28245
+2.4 3.37107
+2.7 3.70582
+e
+1.5 3.72833
+1.8 3.38138
+2.1 3.28245
+2.4 3.37107
+2.7 3.70582

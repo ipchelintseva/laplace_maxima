@@ -1,0 +1,4 @@
+#!/bin/sh
+
+./laplace_maxima
+gnuplot graphic_delta.txt
